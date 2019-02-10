@@ -13,6 +13,9 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    // MARK: - Showing messages or not
+    // if variable == true then messages are showing
     let ifShowMessages: Bool = true
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let ifShowVCMessages: Bool = true
+    
+    // MARK: - Showing messages or not
+    // if variable == true then messages are showing
+    let ifShowVCMessages: Bool = false
     
     override func awakeFromNib() {
         if (ifShowVCMessages) {
